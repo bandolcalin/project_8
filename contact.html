@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <p>Contact us </p>
+        <p id="p">Feel free to contact us</p>
+    </div>
+
+        <div id="banner"> <img class="img1" src="https://pngimage.net/wp-content/uploads/2018/06/valid-png-2.png" alt=""> Thank you to contacting us!<a href="#" id="xbutton" onclick="closeBanner()"><img class="img2" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-close-512.png"></a></div>
+
+    <form name="form" id="formular" class="container-contact" onsubmit="return HandleInputs(); validateForm()">
+        <fieldset>
+            <label for="name" class="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Name" ><br><br>
+        </fieldset>
+        <fieldset>
+            <label for="email" class="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Email" ><br><br>
+        </fieldset>
+        <fieldset>
+            <label for="subject" class="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject" ><br><br>
+        </fieldset>
+        <label for="message" id="message">Message</label>
+        <textarea rows="14" cols="50" id="text" name="comment" form="usrform" placeholder="Message"></textarea>
+        <button type=“button” id="button" onclick="HandleInputs(); myFunction();"> Submit </button>
+    </form>
+    <script src="contact.js"></script>
+</body>
+</html>

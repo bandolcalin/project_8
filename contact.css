@@ -1,0 +1,135 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    height: 180px;
+    margin-bottom: 30px;
+    background-color: rgb(238, 238, 238);
+}
+
+.container>p {
+    position: relative;
+    top: 60px;
+    left: 190px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: inline;
+    color: rgb(51, 51, 51);
+    margin: 0 auto;
+    font-weight: lighter;
+}
+
+#p {
+    color: rgb(153, 153, 153);
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#banner {
+    visibility: hidden;
+    text-align: center;
+    margin: 20px 350px;
+    left: 50%;
+    color: rgb(46, 136, 70);
+    border: 2 px solid green;
+    background-color: rgb(222, 240, 216);
+    width: 700px;
+    padding: 10px;
+}
+
+.img1 {
+    width: 15px;
+    align-content: center;
+    margin: 0px 50px 0px 0px;
+}
+
+.img2 {
+    width: 15px;
+    align-content: center;
+    margin: 0px 0px 0px 430px; 
+}
+
+.container-contact {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(204, 204, 204);
+    width: 700px;
+    height: 300px;
+    position: center;
+    margin: 0px 350px 0px 350px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 3px;
+}
+
+label {
+    position: relative;
+    padding: 20px;
+}
+
+form {
+    position: relative;
+    margin: 20px 0px;
+    border-radius: 3px;
+}
+
+#name, #email, #subject {
+    position: relative;
+    top: 50px;
+    right: 90px;
+    padding: 6px 100px;
+    border-radius: 3px;
+    border: 1px solid rgb(204, 204, 204)
+}
+
+#subject {
+    left: -100px;
+}
+
+#email {
+    left: -86px;
+}
+
+.name, .email, .subject {
+    position: relative;
+    top: 20px;
+    padding: 0px 40px;
+    border: 2px;
+}
+
+#message {
+    position: relative;
+    float: right;
+    bottom: 180px;
+    right: 220px;
+    padding: 5px 10px;
+}
+
+textarea {
+    position: relative;
+    float: right;
+    top: -150px;
+    left: 60px;
+    border-radius: 3px;
+    border: 1px solid rgb(204, 204, 204)
+}
+
+button {
+    position: relative;
+    float: right;
+    top: 60px;
+    left: 330px;
+    background-color: rgb(59, 139, 206);
+    border-radius: 3px;
+    width: 80px;
+    height: 30px;
+}
+
+p {
+    margin: 5px;
+    color: white;
+}
+
+fieldset {
+    border: 0;
+}

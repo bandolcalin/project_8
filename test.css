@@ -1,0 +1,65 @@
+body {
+    margin: 50px;
+    background: url(https://previews.123rf.com/images/andreykuzmin/andreykuzmin1710/andreykuzmin171000035/88629914-white-wood-background-or-backdrop-texture.jpg);
+}
+
+p {
+    font-family: cursive;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 900;
+    background-image: url(https://images.pexels.com/photos/172289/pexels-photo-172289.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    border-radius: 10px;
+    color: rgb(255, 247, 233);
+}
+
+img {
+    display: flex;
+    height: 400px;
+    margin: auto;
+    width: 40%;
+    border: 5px;
+    border-radius: 10%;
+    border-style: inset;
+    margin-top: 40px;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+div {
+    padding: 10px;
+    display: block;
+    font-family: cursive;
+    font-size: 25px;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    display: block;
+    font-family: cursive;
+    font-size: 25px;
+    justify-content: center;
+}
+
+button {
+    border-radius: 10px;
+    background-image: url(https://images.pexels.com/photos/172289/pexels-photo-172289.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    color: rgb(255, 247, 233);
+    border-style: inset;
+    border: 5px;
+}
+
+#contact {
+    width: 15%;
+    height: 50px;
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 6px;
+}
